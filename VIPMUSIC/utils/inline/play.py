@@ -78,8 +78,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/ALL_SANATANI_BIT",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -100,8 +100,8 @@ def stream_markup(_, videoid, chat_id):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/ALL_SANATANI_BIT",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -197,8 +197,8 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/ALL_SANATANI_BIT",),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -220,8 +220,8 @@ def telegram_markup(_, chat_id):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/ALL_SANATANI_BIT",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
@@ -446,8 +446,8 @@ def telegram_markup_timer(_, chat_id, played, dur):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/ALL_SANATANI_BIT",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
