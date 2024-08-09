@@ -76,7 +76,7 @@ def aq_markup(_, chat_id):
         ],
         [
          InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/+Ckzm2ypQyIIzZTll",),
-         InlineKeyboardButton(text="• ᴜᴘᴅᴀᴛᴇ  •", url=https://t.me/ALL_SANATANI_BOT"),
+         InlineKeyboardButton(text="• ᴜᴘᴅᴀᴛᴇ •", url=f"https://t.me/ALL_SANATANI_BOT"),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
