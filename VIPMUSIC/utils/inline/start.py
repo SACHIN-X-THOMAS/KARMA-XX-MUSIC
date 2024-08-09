@@ -17,7 +17,9 @@ def start_panel(_):
     
 def private_panel(_):
     buttons = [
-        [InlineKeyboardButton(text="🔎 Hᴏᴡ Tᴏ Usᴇ? Cᴏᴍᴍᴀɴᴅ Mᴇɴᴜ", callback_data="settings_back_helper")]
+        [InlineKeyboardButton(
+                text= "✚ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✚",
+                url=f"https://t.me/{app.username}?startgroup=true")]
     ]
     if SUPPORT_CHANNEL and SUPPORT_CHAT:
         buttons.append(
@@ -45,7 +47,7 @@ def private_panel(_):
     )
     buttons.append(
         [
-            InlineKeyboardButton(text="👤 Oᴡɴᴇʀ", user_id=OWNER_ID),
+            InlineKeyboardButton(text="🫧 ᴘʀᴏғᴇssᴏʀ sᴏᴜʀᴀʙʜ🫧", user_id=OWNER_ID),
         ]
     )
     return buttons
